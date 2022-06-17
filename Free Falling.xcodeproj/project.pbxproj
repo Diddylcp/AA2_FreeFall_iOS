@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8C90F3285CB85000EC02B2 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C90F1285CB85000EC02B2 /* GameOverScene.swift */; };
+		6B8C90F4285CB85000EC02B2 /* GameStartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C90F2285CB85000EC02B2 /* GameStartScene.swift */; };
+		6B8C90F8285CBD8300EC02B2 /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C90F5285CBD0B00EC02B2 /* LilitaOne-Regular.ttf */; };
+		6B8C90F9285CBD8400EC02B2 /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C90F5285CBD0B00EC02B2 /* LilitaOne-Regular.ttf */; };
+		6B8C90FA285CBD8400EC02B2 /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B8C90F5285CBD0B00EC02B2 /* LilitaOne-Regular.ttf */; };
+		EF71D3E12837FFDD0020F3B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71D3E02837FFDD0020F3B1 /* AppDelegate.swift */; };
+		EF71D3E32837FFDD0020F3B1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF71D3E22837FFDD0020F3B1 /* GameScene.sks */; };
+		EF71D3E52837FFDD0020F3B1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF71D3E42837FFDD0020F3B1 /* Actions.sks */; };
+		EF71D3E72837FFDD0020F3B1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71D3E62837FFDD0020F3B1 /* GameScene.swift */; };
+		EF71D3E92837FFDD0020F3B1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71D3E82837FFDD0020F3B1 /* GameViewController.swift */; };
+		EF71D3EC2837FFDD0020F3B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF71D3EA2837FFDD0020F3B1 /* Main.storyboard */; };
+		EF71D3EE2837FFDE0020F3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF71D3ED2837FFDE0020F3B1 /* Assets.xcassets */; };
+		EF71D3F12837FFDE0020F3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF71D3EF2837FFDE0020F3B1 /* LaunchScreen.storyboard */; };
+		EF71D3FB2837FFDE0020F3B1 /* Free_FallingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71D3FA2837FFDE0020F3B1 /* Free_FallingTests.swift */; };
+		EF71D4052837FFDF0020F3B1 /* Free_FallingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71D4042837FFDF0020F3B1 /* Free_FallingUITests.swift */; };
+		EF71D4072837FFDF0020F3B1 /* Free_FallingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71D4062837FFDF0020F3B1 /* Free_FallingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF71D3F72837FFDE0020F3B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF71D3D52837FFDD0020F3B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF71D3DC2837FFDD0020F3B1;
+			remoteInfo = "Free Falling";
+		};
+		EF71D4012837FFDF0020F3B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF71D3D52837FFDD0020F3B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF71D3DC2837FFDD0020F3B1;
+			remoteInfo = "Free Falling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B8C90F1285CB85000EC02B2 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		6B8C90F2285CB85000EC02B2 /* GameStartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStartScene.swift; sourceTree = "<group>"; };
+		6B8C90F5285CBD0B00EC02B2 /* LilitaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LilitaOne-Regular.ttf"; sourceTree = "<group>"; };
+		6B8C90FB285CBDA600EC02B2 /* Free-Falling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Free-Falling-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EF71D3DD2837FFDD0020F3B1 /* Free Falling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Free Falling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF71D3E02837FFDD0020F3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF71D3E22837FFDD0020F3B1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EF71D3E42837FFDD0020F3B1 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		EF71D3E62837FFDD0020F3B1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EF71D3E82837FFDD0020F3B1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EF71D3EB2837FFDD0020F3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF71D3ED2837FFDE0020F3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF71D3F02837FFDE0020F3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF71D3F62837FFDE0020F3B1 /* Free FallingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Free FallingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF71D3FA2837FFDE0020F3B1 /* Free_FallingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Free_FallingTests.swift; sourceTree = "<group>"; };
+		EF71D4002837FFDF0020F3B1 /* Free FallingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Free FallingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF71D4042837FFDF0020F3B1 /* Free_FallingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Free_FallingUITests.swift; sourceTree = "<group>"; };
+		EF71D4062837FFDF0020F3B1 /* Free_FallingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Free_FallingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF71D3DA2837FFDD0020F3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF71D3F32837FFDE0020F3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF71D3FD2837FFDF0020F3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8C90F7285CBD1C00EC02B2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C90F5285CBD0B00EC02B2 /* LilitaOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EF71D3D42837FFDD0020F3B1 = {
+			isa = PBXGroup;
+			children = (
+				EF71D3DF2837FFDD0020F3B1 /* Free Falling */,
+				EF71D3F92837FFDE0020F3B1 /* Free FallingTests */,
+				EF71D4032837FFDF0020F3B1 /* Free FallingUITests */,
+				6B8C90F7285CBD1C00EC02B2 /* Fonts */,
+				EF71D3DE2837FFDD0020F3B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF71D3DE2837FFDD0020F3B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF71D3DD2837FFDD0020F3B1 /* Free Falling.app */,
+				EF71D3F62837FFDE0020F3B1 /* Free FallingTests.xctest */,
+				EF71D4002837FFDF0020F3B1 /* Free FallingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF71D3DF2837FFDD0020F3B1 /* Free Falling */ = {
+			isa = PBXGroup;
+			children = (
+				6B8C90FB285CBDA600EC02B2 /* Free-Falling-Info.plist */,
+				6B8C90F1285CB85000EC02B2 /* GameOverScene.swift */,
+				6B8C90F2285CB85000EC02B2 /* GameStartScene.swift */,
+				EF71D3E02837FFDD0020F3B1 /* AppDelegate.swift */,
+				EF71D3E22837FFDD0020F3B1 /* GameScene.sks */,
+				EF71D3E42837FFDD0020F3B1 /* Actions.sks */,
+				EF71D3E62837FFDD0020F3B1 /* GameScene.swift */,
+				EF71D3E82837FFDD0020F3B1 /* GameViewController.swift */,
+				EF71D3EA2837FFDD0020F3B1 /* Main.storyboard */,
+				EF71D3ED2837FFDE0020F3B1 /* Assets.xcassets */,
+				EF71D3EF2837FFDE0020F3B1 /* LaunchScreen.storyboard */,
+			);
+			path = "Free Falling";
+			sourceTree = "<group>";
+		};
+		EF71D3F92837FFDE0020F3B1 /* Free FallingTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF71D3FA2837FFDE0020F3B1 /* Free_FallingTests.swift */,
+			);
+			path = "Free FallingTests";
+			sourceTree = "<group>";
+		};
+		EF71D4032837FFDF0020F3B1 /* Free FallingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF71D4042837FFDF0020F3B1 /* Free_FallingUITests.swift */,
+				EF71D4062837FFDF0020F3B1 /* Free_FallingUITestsLaunchTests.swift */,
+			);
+			path = "Free FallingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF71D3DC2837FFDD0020F3B1 /* Free Falling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF71D40A2837FFDF0020F3B1 /* Build configuration list for PBXNativeTarget "Free Falling" */;
+			buildPhases = (
+				EF71D3D92837FFDD0020F3B1 /* Sources */,
+				EF71D3DA2837FFDD0020F3B1 /* Frameworks */,
+				EF71D3DB2837FFDD0020F3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Free Falling";
+			productName = "Free Falling";
+			productReference = EF71D3DD2837FFDD0020F3B1 /* Free Falling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF71D3F52837FFDE0020F3B1 /* Free FallingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF71D40D2837FFDF0020F3B1 /* Build configuration list for PBXNativeTarget "Free FallingTests" */;
+			buildPhases = (
+				EF71D3F22837FFDE0020F3B1 /* Sources */,
+				EF71D3F32837FFDE0020F3B1 /* Frameworks */,
+				EF71D3F42837FFDE0020F3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF71D3F82837FFDE0020F3B1 /* PBXTargetDependency */,
+			);
+			name = "Free FallingTests";
+			productName = "Free FallingTests";
+			productReference = EF71D3F62837FFDE0020F3B1 /* Free FallingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF71D3FF2837FFDF0020F3B1 /* Free FallingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF71D4102837FFDF0020F3B1 /* Build configuration list for PBXNativeTarget "Free FallingUITests" */;
+			buildPhases = (
+				EF71D3FC2837FFDF0020F3B1 /* Sources */,
+				EF71D3FD2837FFDF0020F3B1 /* Frameworks */,
+				EF71D3FE2837FFDF0020F3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF71D4022837FFDF0020F3B1 /* PBXTargetDependency */,
+			);
+			name = "Free FallingUITests";
+			productName = "Free FallingUITests";
+			productReference = EF71D4002837FFDF0020F3B1 /* Free FallingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF71D3D52837FFDD0020F3B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EF71D3DC2837FFDD0020F3B1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EF71D3F52837FFDE0020F3B1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EF71D3DC2837FFDD0020F3B1;
+					};
+					EF71D3FF2837FFDF0020F3B1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EF71D3DC2837FFDD0020F3B1;
+					};
+				};
+			};
+			buildConfigurationList = EF71D3D82837FFDD0020F3B1 /* Build configuration list for PBXProject "Free Falling" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF71D3D42837FFDD0020F3B1;
+			productRefGroup = EF71D3DE2837FFDD0020F3B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF71D3DC2837FFDD0020F3B1 /* Free Falling */,
+				EF71D3F52837FFDE0020F3B1 /* Free FallingTests */,
+				EF71D3FF2837FFDF0020F3B1 /* Free FallingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF71D3DB2837FFDD0020F3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF71D3EC2837FFDD0020F3B1 /* Main.storyboard in Resources */,
+				6B8C90F8285CBD8300EC02B2 /* LilitaOne-Regular.ttf in Resources */,
+				EF71D3E32837FFDD0020F3B1 /* GameScene.sks in Resources */,
+				EF71D3EE2837FFDE0020F3B1 /* Assets.xcassets in Resources */,
+				EF71D3F12837FFDE0020F3B1 /* LaunchScreen.storyboard in Resources */,
+				EF71D3E52837FFDD0020F3B1 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF71D3F42837FFDE0020F3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C90F9285CBD8400EC02B2 /* LilitaOne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF71D3FE2837FFDF0020F3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C90FA285CBD8400EC02B2 /* LilitaOne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF71D3D92837FFDD0020F3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8C90F4285CB85000EC02B2 /* GameStartScene.swift in Sources */,
+				EF71D3E72837FFDD0020F3B1 /* GameScene.swift in Sources */,
+				EF71D3E92837FFDD0020F3B1 /* GameViewController.swift in Sources */,
+				6B8C90F3285CB85000EC02B2 /* GameOverScene.swift in Sources */,
+				EF71D3E12837FFDD0020F3B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF71D3F22837FFDE0020F3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF71D3FB2837FFDE0020F3B1 /* Free_FallingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF71D3FC2837FFDF0020F3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF71D4072837FFDF0020F3B1 /* Free_FallingUITestsLaunchTests.swift in Sources */,
+				EF71D4052837FFDF0020F3B1 /* Free_FallingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF71D3F82837FFDE0020F3B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF71D3DC2837FFDD0020F3B1 /* Free Falling */;
+			targetProxy = EF71D3F72837FFDE0020F3B1 /* PBXContainerItemProxy */;
+		};
+		EF71D4022837FFDF0020F3B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF71D3DC2837FFDD0020F3B1 /* Free Falling */;
+			targetProxy = EF71D4012837FFDF0020F3B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF71D3EA2837FFDD0020F3B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF71D3EB2837FFDD0020F3B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF71D3EF2837FFDE0020F3B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF71D3F02837FFDE0020F3B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF71D4082837FFDF0020F3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF71D4092837FFDF0020F3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF71D40B2837FFDF0020F3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				DEVELOPMENT_TEAM = H2TNSQT574;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Free-Falling-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "borja.tapia.Free-Falling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		EF71D40C2837FFDF0020F3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				DEVELOPMENT_TEAM = H2TNSQT574;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Free-Falling-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "borja.tapia.Free-Falling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Release;
+		};
+		EF71D40E2837FFDF0020F3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "borja.tapia.Free-FallingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Free Falling.app/Free Falling";
+			};
+			name = Debug;
+		};
+		EF71D40F2837FFDF0020F3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "borja.tapia.Free-FallingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Free Falling.app/Free Falling";
+			};
+			name = Release;
+		};
+		EF71D4112837FFDF0020F3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "borja.tapia.Free-FallingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Free Falling";
+			};
+			name = Debug;
+		};
+		EF71D4122837FFDF0020F3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "borja.tapia.Free-FallingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Free Falling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF71D3D82837FFDD0020F3B1 /* Build configuration list for PBXProject "Free Falling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF71D4082837FFDF0020F3B1 /* Debug */,
+				EF71D4092837FFDF0020F3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF71D40A2837FFDF0020F3B1 /* Build configuration list for PBXNativeTarget "Free Falling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF71D40B2837FFDF0020F3B1 /* Debug */,
+				EF71D40C2837FFDF0020F3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF71D40D2837FFDF0020F3B1 /* Build configuration list for PBXNativeTarget "Free FallingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF71D40E2837FFDF0020F3B1 /* Debug */,
+				EF71D40F2837FFDF0020F3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF71D4102837FFDF0020F3B1 /* Build configuration list for PBXNativeTarget "Free FallingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF71D4112837FFDF0020F3B1 /* Debug */,
+				EF71D4122837FFDF0020F3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF71D3D52837FFDD0020F3B1 /* Project object */;
+}
